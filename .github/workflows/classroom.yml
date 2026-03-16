@@ -37,7 +37,8 @@ jobs:
           test-name: "Build & run main"
           # command: g++ -std=c++17 -Wall -Wextra main.cpp -o main && timeout 10 ./main < data/data1.txt > result1.txt 
           # command: data/run.sh
-          command: chmod +x data/run.sh && data/run.sh
+          # command: chmod +x data/run.sh && data/run.sh
+          command: data/run.sh
           timeout: 30
           max-score: 10
 
