@@ -33,7 +33,7 @@ int main()
   if (numberofSold < 0)
   {
     cout << "Invalid input. It must be Positive.\n";
-    return 1; //Exit with no error code
+    return 0; //Exit with no error code
   }
   // Determine discount rate based on quantity
   if (numberofSold < 10)
